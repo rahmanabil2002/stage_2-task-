@@ -2,19 +2,14 @@
 
 Authors (@slack): Manal Agdada (@Manal), Pascal Onaho (@PascalOnaho), Rahma Nabil Sallam (@rahmanabil2002), Hagar Haitham Elazab (@HBONH33), Salma ismail (@[Salmaismail28](https://hackbiointern-leo4437.slack.com/team/U07K2FNRY4A)), Idahosa Clinton (@doc\_Idahosa), YaraHaitham (@YaraHaitham), Izuchukwu Obilom (@Zucchini)
 
-Github Repo: [https://github.com/manal-agdada/Stage-2---HackBio-internship-/blob/main/stage2.md](https://github.com/manal-agdada/Stage-2---HackBio-internship-/blob/main/stage2.md)
-
-Github code link: [https://github.com/manal-agdada/Stage-2---HackBio-internship-/blob/main/stage2.R](https://github.com/manal-agdada/Stage-2---HackBio-internship-/blob/main/stage2.R)
 
 This study analyzes and visualizes a gene expression dataset through heatmaps and functional enrichment analysis to explore patterns in differentially expressed genes and their biological significance. The dataset chosen comprises the top 500+ differentially expressed genes in glioblastoma under different conditions.
 
 ### **Heatmap generation**
 
 We generated heatmaps for the dataset using the \`heatmap.2()\` function from the *gplots* package in R, employing two color palettes: a sequential palette to show gradient changes (Figure 1A), and a diverging palette to highlight deviations from a central value (Figure 1B). Sequential palettes work best for data with a progression from low to high values, whereas diverging palettes suit data with both positive and negative deviations. Three heatmap variants were then created: one clustering only genes (Figure 2A), one clustering only samples (Figure 2B), and one clustering both genes and samples (Figure 2C). This helps to assess relationships and patterns in the data, whether considering genes, samples, or both.  
-![][image1]  
-![][image2]  
-![][image3]  
-![][image4]
+
+
 
 ### **Identification of up- and down-regulated genes**
 
